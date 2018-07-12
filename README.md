@@ -9,7 +9,7 @@ This client has been implemented to encrypt the plaintext secretkey to be used w
     `mvn clean install`
 2. Copy the target/SecretKeyEncryptor.jar and conf/ folder into a same location.
 3. Configure the config.properties file located inside the /conf folder with the relevant values and save it. 
-	- CipherTransformation : by default IS 5.2.0 uses RSA. If you have configured OAEP in the IS, then change this value to - RSA/ECB/OAEPwithSHA1andMGF1Padding
+	- CipherTransformation : by default IS 5.2.0 uses RSA. If you have configured OAEP in the IS, then change this value to - `RSA/ECB/OAEPwithSHA1andMGF1Padding`
 	- Certificate : point to the certificate file
 	- KeyType
 	- KeyPassword
